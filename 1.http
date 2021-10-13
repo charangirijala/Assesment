@@ -1,0 +1,20 @@
+POST http://localhost:2000/users/createuser
+Content-Type: application/json
+
+{
+   "username":"sruthi",
+   "password":"charan@662",
+   "mail":"gii"
+}
+
+
+
+###
+POST http://localhost:2000/users/login
+Content-Type: application/json
+
+{
+    "username":"sruthi",
+   "password":"chaan@662",
+   "mail":"gii"
+}
